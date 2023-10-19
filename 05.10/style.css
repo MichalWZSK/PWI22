@@ -1,0 +1,106 @@
+/* Resetowanie domyślnych stylów przeglądarki */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Stylizacja formularza */
+#FormularzKontaktowy {
+    width: 320px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgba(17, 24, 39, 1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: rgba(243, 244, 246, 1);
+
+}
+
+/* Stylizacja etykiet */
+label {
+    font-weight: bold;
+}
+.title {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+/* Stylizacja pól tekstowych i pola tekstowego */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ff5733; /* Nowy kolor obramowania (pomarańczowy) */
+    border-radius: 8px;
+    background-color: rgba(255, 116, 0, 0.8); /* Nowe tło (pomarańczowe) */
+    color: #fff;
+    outline: none;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+/* Stylizacja przycisku wyślij */
+input[type="submit"] {
+    background-color: #ff5733; /* Nowy kolor tła przycisku (pomarańczowy) */
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Stylizacja przycisku wyślij po najechaniu myszą */
+input[type="submit"]:hover {
+    background-color: #ff4300; /* Nowy kolor tła przycisku po najechaniu (ciemniejszy pomarańcz) */
+}
+
+
+/* Stylizacja nawigacji */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Ustawienie elementów w jednym rzędzie */
+    justify-content: center; /* Wyśrodkowanie elementów na szerokość */
+    background-color: #212121; /* Kolor tła dla stopki */
+    color: #fff; /* Kolor tekstu */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff; /* Kolor linków */
+    font-weight: bold;
+    transition: color 0.3s; /* Płynna zmiana koloru przy najechaniu myszą */
+    
+}
+
+nav a:hover {
+    color: #0056b3; /* Kolor linków po najechaniu myszą */
+}
+
+body {
+    background-color: #212121;
+}
+
+footer{
+    color: #fff;
+    text-align: center;
+}
+h1{
+    color: #fff;
+    text-align: center;
+}
