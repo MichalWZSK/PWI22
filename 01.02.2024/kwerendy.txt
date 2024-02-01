@@ -1,0 +1,4 @@
+Pyt1: SELECT nazwa, cena FROM uslugi WHERE cena < 30;
+Pyt2: SELECT SUM(cena) FROM uslugi WHERE RODZAJ = 1;
+Pyt3: CREATE USER 'kosmetyczka'@'localhost' IDENTIFIED VIA mysql_native_password USING 'Kosmet34';
+Pyt4: GRANT SELECT, INSERT ON 'egzamin1'.'uslugi' ID 'kosmetyczka'@'localhost';
